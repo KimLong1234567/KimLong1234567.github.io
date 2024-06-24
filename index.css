@@ -29,6 +29,7 @@ img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 figcaption{
@@ -37,4 +38,5 @@ figcaption{
     color: #333;
     font-size: 14px;
     padding-top: 10px;
+    cursor: pointer;
 }
