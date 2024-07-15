@@ -2,99 +2,155 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Danh mục</title>
-    <meta name="description" content="Web site created for blog" />
-    <meta name="keywords" content="blog" />
-    <link rel="canonical" href="http:localhost:5500" />
-    <link rel="stylesheet" href="./index.css">
-    <style>
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      margin: 10px;
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      background-color: rgba(20, 20, 20, 255);
+      color: rgba(160, 160, 160, 255);
+      display: flex;
+      justify-content: center;
+      padding: 10vh;
+      min-height: 50vh;
+    }
+
+    img[alt="avatar-jessica"] {
+      width: 30%;
+      height: 30%;
+      border: 1px solid rgb(84, 77, 77);
+      border-radius: 50%;
+    }
+
+    .avatar {
+      display: flex;
+      justify-content: center;
+    }
+
+    #container {
+      background-color: rgba(31, 31, 31, 255);
+      border: 1px solid rgba(31, 31, 31, 255);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .text {
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      color: rgba(191, 229, 68, 255);
+      text-decoration: none;
+    }
+
+    h2 {
+      color: white;
+      margin-top: 20px;
+    }
+
+    .content {
+      display: flex;
+      justify-content: center;
+      font-size: 16px;
+      margin: 20px;
+    }
+
+    .button1 {
+      cursor: pointer;
+      background-color: rgba(51, 51, 51, 255);
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      color: rgba(224, 224, 224, 255);
+      padding: 10px;
+      margin-top: 10px;
+    }
+
+    .button1:hover {
+      color: rgba(31, 31, 31, 255);
+      background-color: rgba(191, 229, 68, 255);
+    }
+
+    a {
+      color: inherit;
+      /* blue colors for links too */
+      text-decoration: inherit;
+      /* no underline */
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-
-    <head>
-        <h1 id="head">Danh mục</h1>
-    </head>
-
-    <main>
-        <article>
-            <table id="table">
-                <tr>
-                    <th>
-                        Danh mục
-                    </th>
-                </tr>
-                <tr>
-                    <td>
-                        <figure>
-                            <img src="./img/images.jpg" alt=" male fashion" />
-                            <figcaption>thời trang nam</figcaption>
-                        </figure>
-                    </td>
-                    <td>
-                        <figure>
-                            <img src="./img/images (1).jpg" alt="phone" />
-                            <figcaption>điện thoại & phụ kiện</figcaption>
-                        </figure>
-                    </td>
-                    <td>
-                        <figure>
-                            <img src="./img/tv.jpg" alt="tv" />
-                            <figcaption>thiết bị điện tử</figcaption>
-                        </figure>
-                    </td>
-                    <td>
-                        <figure>
-                            <img src="./img/laptop-5673901_640.jpg" alt="laptop" />
-                            <figcaption>máy tính & laptop</figcaption>
-                        </figure>
-                    </td>
-                    <td>
-                        <figure>
-                            <img src="./img/camera-1055066_640.jpg" alt="camera" />
-                            <figcaption>máy ảnh & máy quay phim</figcaption>
-                        </figure>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <figure>
-                            <img src="./img/images (2).jpg" alt="female fashion" />
-                            <figcaption>thời trang nữ</figcaption>
-                        </figure>
-                    </td>
-                    <td>
-                        <figure>
-                            <img src="./img/anh-dep-me-va-be_094349636.jpg" alt="mom and child" />
-                            <figcaption>mẹ và bé</figcaption>
-                        </figure>
-                    </td>
-                    <td>
-                        <figure>
-                            <img src="./img/Ban-Tra-Go-Thong-Min.jpg" alt="home stuff" />
-                            <figcaption>nhà cửa & đời sống</figcaption>
-                        </figure>
-                    </td>
-                    <td>
-                        <figure>
-                            <img src="./img/my-pham.jpg" alt="beauty" />
-                            <figcaption>sắc đẹp</figcaption>
-                        </figure>
-                    </td>
-                    <td>
-                        <figure>
-                            <img src="./img/images (3).jpg" alt="heathy" />
-                            <figcaption>sức khoẻ</figcaption>
-                        </figure>
-                    </td>
-                </tr>
-            </table>
-        </article>
-    </main>
-
+  <div id="container">
+    <div class="avatar">
+      <img src="./assets/images/ava.jpg" alt="avatar-jessica">
+    </div>
+    <h2>
+      <center>Lâm Kim Long</center>
+    </h2>
+    <p class="text">Bac Lieu, Viet Nam</p>
+    <div class="content">
+      "Front-end developer and avid reader."
+    </div>
+    <a href="https://github.com/KimLong1234567" target="_blank">
+      <div class="button1">
+        GitHub
+      </div>
+    </a>
+    <a href="https://www.frontendmentor.io/profile/KimLong1234567" target="_blank">
+      <div class="button1">
+        Frontend Mentor
+      </div>
+    </a>
+    <a href="https://www.linkedin.com/in/kimlong-lam-81b013235/" target="_blank">
+      <div class="button1">
+        LinkedIn
+      </div>
+    </a>
+    <a href="https://www.facebook.com/kimlong.lam.39750/" target="_blank">
+      <div class="button1">
+        Facebook
+      </div>
+    </a>
+    <a href="https://www.instagram.com/kimlong.lam.39750/" target="_blank">
+      <div class="button1">
+        Instagram
+      </div>
+    </a>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.facebook.com/kimlong.lam.39750/" target="_blank">Lâm Kim Long</a>.
+    </div>
+  </div>
 </body>
 
 </html>
