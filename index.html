@@ -1,156 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <title>Social links profile</title>
 
-  <title>Social links profile</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        margin: 10px;
+        font-size: 11px;
+        text-align: center;
+      }
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      margin: 10px;
-      font-size: 11px;
-      text-align: center;
-    }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
 
-    * {
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
-    }
+      body {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        background-color: rgba(20, 20, 20, 255);
+        color: rgba(160, 160, 160, 255);
+        display: flex;
+        justify-content: center;
+        padding: 10vh;
+        min-height: 50vh;
+      }
 
-    body {
-      font-family: "Roboto", sans-serif;
-      font-weight: 500;
-      font-style: normal;
-      background-color: rgba(20, 20, 20, 255);
-      color: rgba(160, 160, 160, 255);
-      display: flex;
-      justify-content: center;
-      padding: 10vh;
-      min-height: 50vh;
-    }
+      img[alt='avatar-jessica'] {
+        width: 30%;
+        height: 30%;
+        border: 1px solid rgb(84, 77, 77);
+        border-radius: 50%;
+      }
 
-    img[alt="avatar-jessica"] {
-      width: 30%;
-      height: 30%;
-      border: 1px solid rgb(84, 77, 77);
-      border-radius: 50%;
-    }
+      .avatar {
+        display: flex;
+        justify-content: center;
+      }
 
-    .avatar {
-      display: flex;
-      justify-content: center;
-    }
+      #container {
+        background-color: rgba(31, 31, 31, 255);
+        border: 1px solid rgba(31, 31, 31, 255);
+        padding: 20px;
+        border-radius: 10px;
+      }
 
-    #container {
-      background-color: rgba(31, 31, 31, 255);
-      border: 1px solid rgba(31, 31, 31, 255);
-      padding: 20px;
-      border-radius: 10px;
-    }
+      .text {
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        color: rgba(191, 229, 68, 255);
+        text-decoration: none;
+      }
 
-    .text {
-      margin: 10px;
-      display: flex;
-      justify-content: center;
-      color: rgba(191, 229, 68, 255);
-      text-decoration: none;
-    }
+      h2 {
+        color: white;
+        margin-top: 20px;
+      }
 
-    h2 {
-      color: white;
-      margin-top: 20px;
-    }
+      .content {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        margin: 20px;
+      }
 
-    .content {
-      display: flex;
-      justify-content: center;
-      font-size: 16px;
-      margin: 20px;
-    }
+      .button1 {
+        cursor: pointer;
+        background-color: rgba(51, 51, 51, 255);
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        color: rgba(224, 224, 224, 255);
+        padding: 10px;
+        margin-top: 10px;
+      }
 
-    .button1 {
-      cursor: pointer;
-      background-color: rgba(51, 51, 51, 255);
-      border-radius: 5px;
-      display: flex;
-      justify-content: center;
-      color: rgba(224, 224, 224, 255);
-      padding: 10px;
-      margin-top: 10px;
-    }
+      .button1:hover {
+        color: rgba(31, 31, 31, 255);
+        background-color: rgba(191, 229, 68, 255);
+      }
 
-    .button1:hover {
-      color: rgba(31, 31, 31, 255);
-      background-color: rgba(191, 229, 68, 255);
-    }
+      a {
+        color: inherit;
+        /* blue colors for links too */
+        text-decoration: inherit;
+        /* no underline */
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-    a {
-      color: inherit;
-      /* blue colors for links too */
-      text-decoration: inherit;
-      /* no underline */
-    }
-  </style>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
-</head>
-
-<body>
-  <div id="container">
-    <div class="avatar">
-      <img src="./assets/images/ava.jpg" alt="avatar-jessica">
+  <body>
+    <div id="container">
+      <div class="avatar">
+        <img src="./assets/images/ava.jpg" alt="avatar-jessica" />
+      </div>
+      <h2>
+        <center>Lâm Kim Long</center>
+      </h2>
+      <p class="text">Bac Lieu, Viet Nam</p>
+      <div class="content">"Front-end developer and avid reader."</div>
+      <a href="https://github.com/KimLong1234567" target="_blank">
+        <div class="button1">GitHub</div>
+      </a>
+      <a href="https://leetcode.com/u/oacA/" target="_blank">
+        <div class="button1">LeetCode</div>
+      </a>
+      <a
+        href="https://www.hackerrank.com/profile/kimlonglam100"
+        target="_blank"
+      >
+        <div class="button1">Hackerrank</div>
+      </a>
+      <a
+        href="https://www.frontendmentor.io/profile/KimLong1234567"
+        target="_blank"
+      >
+        <div class="button1">Frontend Mentor</div>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/kimlong-lam-81b013235/"
+        target="_blank"
+      >
+        <div class="button1">LinkedIn</div>
+      </a>
+      <a href="https://www.facebook.com/kimlong.lam.39750/" target="_blank">
+        <div class="button1">Facebook</div>
+      </a>
+      <a href="https://www.instagram.com/kimlong.lam.39750/" target="_blank">
+        <div class="button1">Instagram</div>
+      </a>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.facebook.com/kimlong.lam.39750/" target="_blank"
+          >Lâm Kim Long</a
+        >.
+      </div>
     </div>
-    <h2>
-      <center>Lâm Kim Long</center>
-    </h2>
-    <p class="text">Bac Lieu, Viet Nam</p>
-    <div class="content">
-      "Front-end developer and avid reader."
-    </div>
-    <a href="https://github.com/KimLong1234567" target="_blank">
-      <div class="button1">
-        GitHub
-      </div>
-    </a>
-    <a href="https://www.frontendmentor.io/profile/KimLong1234567" target="_blank">
-      <div class="button1">
-        Frontend Mentor
-      </div>
-    </a>
-    <a href="https://www.linkedin.com/in/kimlong-lam-81b013235/" target="_blank">
-      <div class="button1">
-        LinkedIn
-      </div>
-    </a>
-    <a href="https://www.facebook.com/kimlong.lam.39750/" target="_blank">
-      <div class="button1">
-        Facebook
-      </div>
-    </a>
-    <a href="https://www.instagram.com/kimlong.lam.39750/" target="_blank">
-      <div class="button1">
-        Instagram
-      </div>
-    </a>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://www.facebook.com/kimlong.lam.39750/" target="_blank">Lâm Kim Long</a>.
-    </div>
-  </div>
-</body>
-
+  </body>
 </html>
